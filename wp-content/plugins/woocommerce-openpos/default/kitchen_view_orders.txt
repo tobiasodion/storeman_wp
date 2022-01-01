@@ -1,0 +1,64 @@
+<% var items_id = []; %>
+<div class="kitchen-order order-type-<%- desk.type %>">
+    <div class="order-container">
+        <div class="order-header">
+            <h3>
+               <%- desk.name %>
+               <% if(customer != undefined && customer['name'] && customer['name'].length > 0){ %>
+               
+                            <span class="order-customer-name"><%- customer.name %></span>
+               <% } %> 
+            </h3>
+        </div>
+        <div class="order-items">
+            <ul>
+                <% items.forEach(function(item){ %>
+                    <% items_id.push(item.id );%>
+                    <li class="dining <%- item.dining %> <%- item.done %> ">
+                    <p>
+                    <% if (item.done != "ready" && item.done != "done" && item.done != "done_all" ) { %> 
+                        <a data-id="<%- item.id %>" href="javascript:void(0);" class="is_cook_ready"> <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> </a> 
+                    <% } %> 
+                   
+                   <span class="item-qty"><%= item.qty %></span> x <%= item.item %>
+                    <% if(item.dining == 'takeaway'){ %>
+                        <span class="dining-takeaway">takeway</span>
+                    <% }; %>
+                    <% if(item.note.length > 0){ %>
+                        <br/>
+                        <span class="option-item"><i><%- item.note  %></i></span>
+                    <% }; %>
+                    </p>
+                    <% if(item.seller_name.length > 0){ %>
+                        
+                        <span class="item-seller"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%- item.seller_name  %></span>
+                    <% }; %>
+                    
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        <div class="order-action">
+           <span class="order-time-ago"><%= time_ago %></span>
+           <div class="order-action-btn">
+            
+             <% if (allow_action.length == 0 ) { %> 
+                    <a data-id="<%- items_id.join(',') %>" href="javascript:void(0);" class="is_cook_ready"> <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> </a> 
+            <% }else{ %>
+                <% allow_action.forEach(function(action){ %>
+                    <% if (action == "delete" ) { %> 
+                        <a data-id="<%- items_id.join(',') %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a> 
+                    <% } else { %> 
+                        <a data-id="<%- items_id.join(',') %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"><%= action %> </a> 
+                    <% } %>
+                <% }) %>
+            <% } %>
+
+
+
+           
+           </div>
+        </div>
+    </div>
+
+</div>

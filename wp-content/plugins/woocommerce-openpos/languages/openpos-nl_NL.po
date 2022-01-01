@@ -1,0 +1,2464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce OpenPos\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 12:25+0000\n"
+"PO-Revision-Date: 2020-12-09 15:33+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4\n"
+"Last-Translator: \n"
+"Language: nl\n"
+
+#: woocommerce-openpos.php:109
+msgid ""
+"Seem you are using OpenPOS Lite Version - Free. Please delete it before "
+"intsall this Paid version."
+msgstr ""
+"U gebruikt OpenPOS Lite versie - free. Verwijder deze voor installatie van "
+"deze betaalde versie"
+
+#: woocommerce-openpos.php:112
+msgid ""
+"Seem you are forgot install woocommerce plugin. Please install woocommerce "
+"plugin before install OpenPOS"
+msgstr ""
+"U lijkt woocommerce plugin vergeten te zijn installeren. Installeer "
+"woocommerce voor installatie van OpenPOS"
+
+#: includes/Core.php:737 includes/Core.php:738
+#: templates/admin/report/report_form.php:11
+msgid "Chip & PIN"
+msgstr ""
+
+#: includes/Core.php:744
+msgid "Credit Card ( Stripe ) - Online Payment for POS only"
+msgstr "Creditcard (stripe) - online betaling voor POS alleen"
+
+#: includes/Core.php:745
+msgid "Credit Card"
+msgstr "Creditcard"
+
+#: includes/Core.php:813
+msgid ""
+"Click Generate to get a reference order number. Then process the payment "
+"using your chip & PIN device."
+msgstr ""
+"Klik Genereer om een referentie ordernummer te krijgen. Verwerk dan de "
+"betaling via uw chip & PIN apparaat"
+
+#: includes/Core.php:1042
+msgid "Return"
+msgstr "Terug"
+
+#: includes/Core.php:1141 kitchen/index.php:208
+#: templates/admin/report/print_z_report.php:148
+msgid "Item"
+msgstr "Artikel"
+
+#: includes/Core.php:1142 templates/admin/stock.php:43
+#: templates/admin/products.php:18 templates/admin/warehouse/inventory.php:22
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/Core.php:1143 kitchen/index.php:209 includes/admin/Admin.php:5118
+#: includes/admin/Admin.php:5175 templates/admin/stock.php:44
+#: templates/admin/report/print_z_report.php:149
+#: templates/admin/warehouse/inventory.php:23
+msgid "Qty"
+msgstr "Aantal"
+
+#: includes/Core.php:1144 includes/Core.php:1178
+msgid "Discount"
+msgstr "Korting"
+
+#: includes/Core.php:1145 includes/admin/Admin.php:5138
+#: templates/admin/orders.php:19 templates/admin/report/print_z_report.php:129
+#: templates/admin/report/print_z_report.php:150
+#: templates/admin/warehouse/adjust_stock.php:67
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/Core.php:1166
+msgid "Sub Total"
+msgstr "Subtotaal"
+
+#: includes/Core.php:1172
+msgid "Shipping"
+msgstr "Levering"
+
+#: includes/Core.php:1183
+msgid "Tax"
+msgstr "BTW"
+
+#: includes/Core.php:1188 includes/admin/Admin.php:2985
+#: includes/admin/Admin.php:3117 includes/admin/Admin.php:3168
+#: includes/admin/Admin.php:3366 includes/admin/Admin.php:3415
+#: includes/admin/Admin.php:3687 includes/admin/Admin.php:3695
+#: includes/admin/Admin.php:3842 templates/admin/dashboard.php:245
+#: templates/admin/report/report_sales_table.php:9
+msgid "Grand Total"
+msgstr "Eindtotaal"
+
+#: lib/class-op-woo.php:94 templates/admin/orders.php:17
+msgid "Source"
+msgstr "Bron"
+
+#: lib/class-op-woo.php:171
+msgid "POS Order Number:"
+msgstr "POS ordernummer:"
+
+#: lib/class-op-woo.php:176
+msgid "Shop Agent:"
+msgstr "Winkelbediende:"
+
+#: lib/class-op-woo.php:181
+msgid "Outlet:"
+msgstr ""
+
+#: lib/class-op-woo.php:186
+msgid "Register:"
+msgstr "Kassa:"
+
+#: lib/class-op-woo.php:186 includes/admin/Admin.php:2212
+#: includes/admin/Admin.php:2584 includes/admin/Admin.php:2853
+#: includes/admin/Admin.php:2871
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: lib/class-op-woo.php:192
+msgid "POS Payment method:"
+msgstr "POS betaalmethode:"
+
+#: lib/class-op-woo.php:204
+msgid "Additional information:"
+msgstr "Aanvullende info:"
+
+#: lib/class-op-woo.php:724 lib/class-op-woo.php:793
+#: includes/front/Front.php:2982
+msgid "Tax on POS"
+msgstr "BTW op POS"
+
+#: lib/class-op-woo.php:926
+msgid "Weight"
+msgstr "Gewicht"
+
+#: lib/class-op-woo.php:1180
+msgid "Custom Shipping"
+msgstr "Levering op maat"
+
+#: lib/class-op-woo.php:1307
+msgid "Shipping: "
+msgstr "Levering:"
+
+#: lib/class-op-woo.php:1321
+msgid "Billing: "
+msgstr "Betaling:"
+
+#: lib/class-op-woo.php:1362 lib/class-op-woo.php:1399
+msgid "OP Barcode"
+msgstr ""
+
+#: lib/class-op-woo.php:1364 lib/class-op-woo.php:1402
+msgid "Barcode refers to use in POS panel."
+msgstr "Barcode verwijzing om in POS paneel te gebruiken."
+
+#: lib/class-op-woo.php:1399
+msgid "POS Barcode"
+msgstr ""
+
+#: lib/class-op-woo.php:1477
+msgid "Filter by Source"
+msgstr "Filter op Bron"
+
+#: lib/class-op-woo.php:1479
+msgid "Online Order"
+msgstr "Online bestelling"
+
+#: lib/class-op-woo.php:1480
+msgid " POS Orders"
+msgstr "POS bestellingen"
+
+#: lib/class-op-woo.php:1543
+msgid "Seller: "
+msgstr "Verkoper:"
+
+#: lib/class-op-woo.php:1550
+msgid "Sold By Shop Agent"
+msgstr "Verkocht door wikelbediende"
+
+#: lib/class-op-woo.php:1656 lib/class-op-woo.php:1658
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: lib/class-op-woo.php:1668 lib/class-op-woo.php:1670
+msgid "PostCode / Zip"
+msgstr "Postcode"
+
+#: lib/class-op-woo.php:1679 lib/class-op-woo.php:1681
+#: templates/admin/warehouses.php:98 templates/admin/warehouse/new.php:85
+msgid "City"
+msgstr "Plaats"
+
+#: lib/class-op-woo.php:1690 lib/class-op-woo.php:1692
+#: lib/class-op-woo.php:1718 lib/class-op-woo.php:1720
+msgid "State"
+msgstr "Staat/provincie"
+
+#: lib/class-op-woo.php:1737
+msgid "Country"
+msgstr "Land"
+
+#: lib/class-op-woo.php:1739
+msgid "Choose Country"
+msgstr "Kies land"
+
+#: lib/class-op-woo.php:1862
+msgid "Done via website"
+msgstr "Gedaan via website"
+
+#: lib/class-op-woo.php:2398
+msgid "POS Information"
+msgstr "POS informatie"
+
+#: lib/class-op-woo.php:2451
+msgid "Bar Drink"
+msgstr "Bar drankje"
+
+#: lib/class-op-woo.php:2603
+msgid "Item Details"
+msgstr "Artikeldetails"
+
+#: lib/class-op-woo-cart.php:196 templates/admin/tables.php:98
+msgid "Cost"
+msgstr "Kosten"
+
+#: lib/class-op-warehouse.php:104 lib/class-op-warehouse.php:133
+msgid "Default online store"
+msgstr "Standaard online winkel"
+
+#: lib/class-op-report.php:151 lib/class-op-report.php:219
+msgid "Session"
+msgstr "Sessie"
+
+#: lib/class-op-report.php:152 lib/class-op-report.php:220
+msgid "Clock IN"
+msgstr "Klok IN"
+
+#: lib/class-op-report.php:153 lib/class-op-report.php:221
+msgid "Clock OUT"
+msgstr "Klok UIT"
+
+#: lib/class-op-report.php:154 lib/class-op-report.php:222
+#: templates/admin/report/print_z_report.php:115
+msgid "Open Cash"
+msgstr "Open kassa"
+
+#: lib/class-op-report.php:155 lib/class-op-report.php:223
+#: templates/admin/report/print_z_report.php:119
+msgid "Close Cash"
+msgstr "Sluit kassa"
+
+#: lib/class-op-report.php:156 lib/class-op-report.php:224
+#: includes/admin/Admin.php:3272 includes/admin/Admin.php:3342
+#: includes/admin/Admin.php:3600 includes/admin/Admin.php:3665
+#: includes/admin/Admin.php:3823 includes/admin/Admin.php:3935
+#: templates/admin/report/report_sales_chart.php:14
+msgid "Total Sales"
+msgstr "Totaal verkopen"
+
+#: lib/class-op-report.php:157
+msgid "Total Custom Transaction"
+msgstr "Totaal maatwerk transactie"
+
+#: lib/class-op-report.php:158
+msgid "Total Item Discount"
+msgstr "Totaal artikel korting"
+
+#: lib/class-op-report.php:159
+msgid "Total Cart Discount"
+msgstr "Totaal aankoop korting"
+
+#: lib/class-op-report.php:212 templates/admin/print_barcode.php:111
+msgid "Print"
+msgstr "Afdrukken"
+
+#: lib/class-op-report.php:218 includes/admin/Admin.php:2995
+#: includes/admin/Admin.php:3841 templates/admin/dashboard.php:243
+#: templates/admin/report/report_sales_table.php:8
+msgid "#"
+msgstr ""
+
+#: lib/class-op-report.php:225 includes/admin/Admin.php:2361
+#: templates/admin/stock.php:45 templates/admin/products.php:19
+msgid "Action"
+msgstr "Actie"
+
+#: lib/class-op-report.php:488
+msgid "ohhh!record not found"
+msgstr "ohhh!record niet gevonden"
+
+#: lib/class-op-receipt.php:153
+msgid "Please enter template name"
+msgstr "Specificeer sjabloon naam"
+
+#: lib/class-op-receipt.php:337
+msgid "Receipt"
+msgstr "Kassabon"
+
+#: lib/class-op-receipt.php:340 lib/class-op-receipt.php:352
+msgid "Default Template"
+msgstr "Standaard sjabloon"
+
+#: lib/class-op-receipt.php:345 lib/class-op-receipt.php:357
+msgid ""
+"Default template = Use receipt template setting at : admin/pos/setting/"
+"receipt template setting"
+msgstr ""
+"Standaard sjabloon = Gebruik kassa sjabloon instelling bij: admin/pos/"
+"setting/receipt template setting"
+
+#: lib/class-op-receipt.php:349
+msgid "Gift Receipt"
+msgstr "Cadeau bon"
+
+#: lib/class-op-exchange.php:66
+#, php-format
+msgid "Exchange &ndash; %s"
+msgstr "Wissel &ndash; %s"
+
+#: lib/class-op-exchange.php:66
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr ""
+
+#: lib/class-op-discounts.php:128
+msgid "This coupon not for current customer"
+msgstr "Huidige coupon niet voor deze klant"
+
+#: lib/class-op-discounts.php:137 lib/class-op-discounts.php:156
+#: lib/class-op-discounts.php:168
+msgid "Please add customer before valid coupon"
+msgstr "Voeg klant toe voor geldige coupon"
+
+#: templates/help.php:3
+msgid "Hot Keys"
+msgstr "Sneltoetsen"
+
+#: templates/help.php:5
+msgid "Focus barcode / product search"
+msgstr "Focus barcode / product zoeken"
+
+#: templates/help.php:6
+msgid "Focus customer search"
+msgstr "Focus klant zoeken"
+
+#: templates/help.php:7
+msgid "Add new customer"
+msgstr "Nieuwe klant toevoegen"
+
+#: templates/help.php:8
+msgid "Remove current customer"
+msgstr "Verwijder huidige klant"
+
+#: templates/help.php:9
+msgid "View current customer"
+msgstr "Toon huidige klant"
+
+#: templates/help.php:11
+msgid "Clear Cart"
+msgstr "Wis bestelling"
+
+#: templates/help.php:12
+msgid "Goto checkout"
+msgstr "Ga naar afrekenen"
+
+#: templates/help.php:13
+msgid "Save Cart"
+msgstr "Bewaar bestelling"
+
+#: templates/help.php:16
+msgid "Close current Popup window"
+msgstr "Sluit huidige popupvenster"
+
+#: kitchen/index.php:177
+msgid "KitChen View"
+msgstr "Keukenweergave"
+
+#: kitchen/index.php:184
+msgid "View Type"
+msgstr "Weergavetype"
+
+#: kitchen/index.php:187
+msgid "All"
+msgstr "Alles"
+
+#: kitchen/index.php:210
+msgid "Order Time"
+msgstr "Besteltijd"
+
+#: kitchen/index.php:211 includes/admin/Admin.php:2449
+#: includes/admin/Admin.php:2450
+msgid "Table"
+msgstr "Tafel"
+
+#: kitchen/index.php:212
+msgid "Ready ?"
+msgstr "Klaar ?"
+
+#: includes/admin/Settings.php:775
+msgid "Choose Categories"
+msgstr "Kies categorieën"
+
+#: includes/admin/Settings.php:781
+msgid "Select categories&hellip;"
+msgstr "Selecteer categorieën&hellip;"
+
+#: includes/admin/Settings.php:802
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/admin/Settings.php:803
+msgid "Save changes"
+msgstr "Bewaar wijzigingen"
+
+#: includes/admin/Admin.php:140
+msgid "Knowledgebase"
+msgstr "Kennisbank"
+
+#: includes/admin/Admin.php:141
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/admin/Admin.php:161
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/admin/Admin.php:165
+msgid "Payment Settings"
+msgstr "Betaalinstellingen"
+
+#: includes/admin/Admin.php:169
+msgid "Shipping Settings"
+msgstr "Leveringsinstellingen"
+
+#: includes/admin/Admin.php:173
+msgid "Barcode Label Sheet Settings"
+msgstr "Barcode label vel instellingen"
+
+#: includes/admin/Admin.php:177
+msgid "Print Receipt Settings"
+msgstr "Afdrukken bon instellingen"
+
+#: includes/admin/Admin.php:181
+msgid "POS Layout Setting"
+msgstr "POS layout instellingen"
+
+#: includes/admin/Admin.php:231
+msgid "Stripe Publishable key"
+msgstr ""
+
+#: includes/admin/Admin.php:238
+msgid "Stripe Secret key"
+msgstr ""
+
+#: includes/admin/Admin.php:249
+msgid "Refund Duration"
+msgstr "Terugbetalingsperiode"
+
+#: includes/admin/Admin.php:252
+msgid "refund duration in day"
+msgstr "terugbetalingsduur in dagen"
+
+#: includes/admin/Admin.php:284
+msgid "Scale Barcode Format"
+msgstr "Schaal barcodeformaat"
+
+#: includes/admin/Admin.php:285
+msgid ""
+"Work with barcode scanner device only. I : item code , P : price , W : "
+"weight  , Q : quantity . Example: \"DDIIIIIDPPPPC\" -   \"0281981002076\" "
+"With \"02\": string to detect barcode generate by scale, \"81981\" : product "
+"barcode , \"0207\" : price = 2.07$  "
+msgstr ""
+
+#: includes/admin/Admin.php:296
+msgid "Custom Item Tax Class"
+msgstr "Speciale artikel BTW klasse"
+
+#: includes/admin/Admin.php:297
+msgid "Custom item tax class. It for POS only"
+msgstr "Speciale artikel BTW klasse. Alleen voor POS"
+
+#: includes/admin/Admin.php:301 includes/admin/Admin.php:382
+#: includes/admin/Admin.php:501
+msgid "No Tax"
+msgstr "Geen BTW"
+
+#: includes/admin/Admin.php:316
+msgid "Refund exchange cash"
+msgstr "Teruggave contant wisselgeld"
+
+#: includes/admin/Admin.php:319
+msgid "Allow return cash with remain money amount after exchange"
+msgstr "Sta contante teruggave toe na wisselen"
+
+#: includes/admin/Admin.php:321 includes/admin/Admin.php:519
+#: includes/admin/Admin.php:530 includes/admin/Admin.php:543
+#: includes/admin/Admin.php:563 includes/admin/Admin.php:587
+#: includes/admin/Admin.php:923 includes/admin/Admin.php:937
+#: includes/admin/Admin.php:957 includes/admin/Admin.php:968
+#: includes/admin/Admin.php:979 includes/admin/Admin.php:990
+#: includes/admin/Admin.php:1001 includes/admin/Admin.php:1061
+#: includes/admin/Admin.php:1072 includes/admin/Admin.php:1125
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/Admin.php:322 includes/admin/Admin.php:520
+#: includes/admin/Admin.php:531 includes/admin/Admin.php:544
+#: includes/admin/Admin.php:564 includes/admin/Admin.php:588
+#: includes/admin/Admin.php:924 includes/admin/Admin.php:938
+#: includes/admin/Admin.php:958 includes/admin/Admin.php:969
+#: includes/admin/Admin.php:980 includes/admin/Admin.php:991
+#: includes/admin/Admin.php:1002 includes/admin/Admin.php:1062
+#: includes/admin/Admin.php:1073 includes/admin/Admin.php:1126
+msgid "No"
+msgstr "Nee"
+
+#: includes/admin/Admin.php:359
+msgid "Tax Rate"
+msgstr "BTW-tarief"
+
+#: includes/admin/Admin.php:362
+msgid "Choose Tax Rate"
+msgstr "Kies BTW-tarief"
+
+#: includes/admin/Admin.php:377
+msgid "Discount Tax Class"
+msgstr "Korting BTW-tarief"
+
+#: includes/admin/Admin.php:378
+msgid "Discount Tax Class, both cart discount and coupon. It for POS only"
+msgstr "Korting BTW-tarief voor aankoopkorting en coupon. Alleen voor POS"
+
+#: includes/admin/Admin.php:398
+msgid "Choose tax rate"
+msgstr "Kies BTW-tarief"
+
+#: includes/admin/Admin.php:401
+msgid "Discount Tax Rate"
+msgstr "Korting BTW-tarief"
+
+#: includes/admin/Admin.php:402
+msgid ""
+"Add discount tax rate, this rate for cart discount and coupon discount on "
+"POS only"
+msgstr ""
+"Voeg korting BTW-tarief toe, dit tarief alleen voor aankoopkorting en "
+"couponkorting op POS"
+
+#: includes/admin/Admin.php:413
+msgid "New DashBoard"
+msgstr "Nieuw dashboard"
+
+#: includes/admin/Admin.php:414
+msgid "Products"
+msgstr "Producten"
+
+#: includes/admin/Admin.php:415
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/admin/Admin.php:420 includes/admin/Admin.php:2547
+msgid "Tables"
+msgstr "Tafels"
+
+#: includes/admin/Admin.php:425
+msgid "Default Dashboard Display"
+msgstr "Standaard dashboard weergave"
+
+#: includes/admin/Admin.php:426
+msgid ""
+"Default display for POS , in case category please set category item on "
+"category setting"
+msgstr ""
+"Standaard weergave voor POS, ingeval van categorie een categorie-item "
+"instellen bij categorie-instellingen"
+
+#: includes/admin/Admin.php:434
+msgid "OpenPOS Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:435
+msgid "Product Id"
+msgstr "Artikel id"
+
+#: includes/admin/Admin.php:436
+msgid "Product Sku"
+msgstr "Artikelnummer"
+
+#: includes/admin/Admin.php:454
+msgid "Sequential: Start order number"
+msgstr "Opeenvolgend: start ordernummer"
+
+#: includes/admin/Admin.php:457
+msgid "Next order number"
+msgstr "Volgende ordernummer"
+
+#: includes/admin/Admin.php:462
+msgid "Order number prefix"
+msgstr "Ordernummer voorlooptekst"
+
+#: includes/admin/Admin.php:473
+msgid "Shipping Methods"
+msgstr "Leveringsmethoden"
+
+#: includes/admin/Admin.php:474
+msgid "Default Shipping methods for POS beside Store pickup"
+msgstr "Standaard leveringsmethode voor POS naast de winkel pickup"
+
+#: includes/admin/Admin.php:482
+msgid ""
+"Set Shipping class for active shipping method. Please choose shipping and "
+"click save change to see set shipping tax"
+msgstr ""
+"Stel leveringsmethode klasse in voor actieve leveringsmethode. Kies levering "
+"en klik op bewaren om de leverings BTW te zien"
+
+#: includes/admin/Admin.php:496
+msgid "Tax for"
+msgstr "BTW voor"
+
+#: includes/admin/Admin.php:497
+msgid ""
+"Tax class for current shipping method. Tax rate auto generate base on store/"
+"outlet address"
+msgstr ""
+"BTW klasse voor huidige leveringsmethode. BTW-tarief automatische aanmaak op "
+"winkeladres"
+
+#: includes/admin/Admin.php:514
+msgid "Progressive Web Apps Cached"
+msgstr ""
+
+#: includes/admin/Admin.php:515
+msgid ""
+"OpenPOS Progressive Web Apps on Desktop can be ‘installed’ on the user’s "
+"device much like native apps. It’s fast. Feel integrated because they "
+"launched in the same way as other apps, and run in an app window, without an "
+"address bar or tabs. It is reliable because service workers can cache all of "
+"the assets they need to run. And it create an engaging experience for users."
+msgstr ""
+
+#: includes/admin/Admin.php:525
+msgid "Custom Order Number"
+msgstr "Maatwerk ordernummer"
+
+#: includes/admin/Admin.php:526
+msgid "Custom Sequential Order Numbers for Order create via POS"
+msgstr "Maatwerk opeenvolgende ordernummers voor bestellingen via POS"
+
+#: includes/admin/Admin.php:538
+msgid "POS Stock Manager"
+msgstr "POS voorraadmanager"
+
+#: includes/admin/Admin.php:539
+msgid "Don't allow checkout out of stock product in POS"
+msgstr "Sta geen afrekening van niet op voorraad producten toe in POS"
+
+#: includes/admin/Admin.php:550
+msgid "POS Order Status"
+msgstr "POS bestelstatus"
+
+#: includes/admin/Admin.php:551
+msgid "status for those order created by POS"
+msgstr "status voor de bestellingen via POS"
+
+#: includes/admin/Admin.php:558
+msgid "Continue Checkout Order Status"
+msgstr "Afrekening vervolg bestelstatus"
+
+#: includes/admin/Admin.php:559
+msgid ""
+"Status of online order allow continue checkout on POS. Enter status name to "
+"search"
+msgstr ""
+
+#: includes/admin/Admin.php:569
+msgid "Allow Refund"
+msgstr "Sta terugbetaling toe"
+
+#: includes/admin/Admin.php:570
+msgid "Refund offline via pos panel"
+msgstr "Terugbetalling offline via POS paneel"
+
+#: includes/admin/Admin.php:574
+msgid "Always allow"
+msgstr "Altijd toestaan"
+
+#: includes/admin/Admin.php:575
+msgid "Allow with durations"
+msgstr "Toestaan met tijdsduur"
+
+#: includes/admin/Admin.php:576
+msgid "No Refund"
+msgstr "Geen terugbetaling"
+
+#: includes/admin/Admin.php:582
+msgid "Allow Exchange"
+msgstr "Sta wisselen toe"
+
+#: includes/admin/Admin.php:583
+msgid "Allow exchange for order made by current session"
+msgstr "Sta wisselen toe voor bestelling gemaakt in huidige sessie"
+
+#: includes/admin/Admin.php:594
+msgid "Pos Tax Class"
+msgstr "POS BTW-tarief"
+
+#: includes/admin/Admin.php:595
+msgid ""
+"Tax Class assign for POS system. Require refresh product list to take effect."
+msgstr ""
+"BTW-tarief voor POS systeem. Vereist herstart van de productenlijst om "
+"effect te hebben."
+
+#: includes/admin/Admin.php:605
+msgid "Cart Discount Calculation"
+msgstr "Bestellingskorting  berekening"
+
+#: includes/admin/Admin.php:606
+msgid "Cart discount calculation base on"
+msgstr "Bestellingskorting berekening baseren op"
+
+#: includes/admin/Admin.php:610
+msgid "After Tax"
+msgstr "Na BTW"
+
+#: includes/admin/Admin.php:611
+msgid "Before Tax"
+msgstr "Voor BTW"
+
+#: includes/admin/Admin.php:622
+msgid "POS Addition Payment Methods"
+msgstr "POS toevoeging betaalmethodes"
+
+#: includes/admin/Admin.php:623
+msgid "Payment methods for POS beside cash(default)"
+msgstr "Betaalmethoden voor POS naast contant (standaard)"
+
+#: includes/admin/Admin.php:633
+msgid "Barcode Meta Key"
+msgstr ""
+
+#: includes/admin/Admin.php:634
+msgid ""
+"Barcode field . Make sure the data is unique on meta key you are selected"
+msgstr ""
+"Barcodeveld. Zorg ervoor dat de gegevens uniek zijn op het metaveld dat u "
+"kiest"
+
+#: includes/admin/Admin.php:641
+msgid "Unit"
+msgstr "Eenheid"
+
+#: includes/admin/Admin.php:651
+msgid "<h2>Sheet Setting</h2>"
+msgstr "<h2>Papierinstelling</h2>"
+
+#: includes/admin/Admin.php:657
+msgid "Sheet Width"
+msgstr "Papierbreedte"
+
+#: includes/admin/Admin.php:664
+msgid "Sheet Height"
+msgstr "Papierhoogte"
+
+#: includes/admin/Admin.php:671
+msgid "Vertical Space"
+msgstr "Verticale ruimte"
+
+#: includes/admin/Admin.php:678
+msgid "Horizontal Space"
+msgstr "Horizontale ruimte"
+
+#: includes/admin/Admin.php:686
+msgid "Margin Top"
+msgstr "Topmarge"
+
+#: includes/admin/Admin.php:693
+msgid "Margin Right"
+msgstr "Rechtermarge"
+
+#: includes/admin/Admin.php:700
+msgid "Margin Bottom"
+msgstr "Bodemmarge"
+
+#: includes/admin/Admin.php:707
+msgid "Margin Left"
+msgstr "Linkermarge"
+
+#: includes/admin/Admin.php:716
+msgid "Label Width"
+msgstr "Labelbreedte"
+
+#: includes/admin/Admin.php:723
+msgid "Label Height"
+msgstr "Labelhoogte"
+
+#: includes/admin/Admin.php:730 includes/admin/Admin.php:816
+msgid "Padding Top"
+msgstr "Opvulling top"
+
+#: includes/admin/Admin.php:737 includes/admin/Admin.php:824
+msgid "Padding Right"
+msgstr "Opvulling rechts"
+
+#: includes/admin/Admin.php:744 includes/admin/Admin.php:832
+msgid "Padding Bottom"
+msgstr "Opvulling bodem"
+
+#: includes/admin/Admin.php:751 includes/admin/Admin.php:840
+msgid "Padding Left"
+msgstr "Opvulling links"
+
+#: includes/admin/Admin.php:759
+msgid "Label Template"
+msgstr "Label sjabloon"
+
+#: includes/admin/Admin.php:760 templates/admin/print_barcode.php:99
+msgid ""
+"use [barcode with=\"\" height=\"\"] to adjust barcode image, [op_product "
+"attribute=\"attribute_name\"] with attribute name: <b>name, price ,"
+"regular_price, sale_price, width, height,length,weight</b> and accept html,"
+"inline style css string"
+msgstr ""
+
+#: includes/admin/Admin.php:767
+msgid "<h2>Barcode Setting</h2>"
+msgstr "<h2>Barcode instelling</h2>"
+
+#: includes/admin/Admin.php:774 templates/admin/registers.php:100
+msgid "Mode"
+msgstr "Modus"
+
+#: includes/admin/Admin.php:781
+msgid "QRCode"
+msgstr ""
+
+#: includes/admin/Admin.php:786
+#: templates/admin/receipt_template_composer.php:14
+msgid "Width"
+msgstr "Breedte"
+
+#: includes/admin/Admin.php:793
+msgid "Height"
+msgstr "Hoogte"
+
+#: includes/admin/Admin.php:803
+msgid "Those setting for receipt <strong>Default template</strong>."
+msgstr "Instellingen voor bon <strong>Standaardsjabloon</strong>."
+
+#: includes/admin/Admin.php:808
+msgid "Receipt Width"
+msgstr "Bonbreedte"
+
+#: includes/admin/Admin.php:809 includes/admin/Admin.php:817
+#: includes/admin/Admin.php:825 includes/admin/Admin.php:833
+#: includes/admin/Admin.php:841
+msgid "inch"
+msgstr ""
+
+#: includes/admin/Admin.php:849
+msgid "Receipt Template Header"
+msgstr "Bon sjabloon kop"
+
+#: includes/admin/Admin.php:850
+msgid ""
+"use [payment_method], [customer_name], [customer_phone],[sale_person], "
+"[created_at], [order_number],[order_number_format],[order_note],"
+"[order_qrcode width=\"_number_\" height=\"_number_\"],[order_barcode  width="
+"\"_number_\" height=\"_number_\"], [customer_email],[op_warehouse field="
+"\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,country,"
+"phone,email), [op_register field=\"name\"] shortcode to adjust receipt "
+"information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:856
+msgid "Receipt Template Footer"
+msgstr "Bon sjabloon voettekst"
+
+#: includes/admin/Admin.php:857
+msgid ""
+"use [payment_method],[customer_name], [customer_phone], [sale_person], "
+"[created_at], [order_number],[order_number_format],[order_qrcode width="
+"\"_number_\" height=\"_number_\"],[order_barcode  width=\"_number_\" height="
+"\"_number_\"],[order_note], [customer_email], [op_warehouse field="
+"\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,country,"
+"phone,email), [op_register field=\"name\"] shortcode to adjust receipt "
+"information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:863
+msgid "Receipt Style"
+msgstr "Bonstijl"
+
+#: includes/admin/Admin.php:864
+msgid "click here to preview receipt"
+msgstr "klik hier voor voorbeeld bon"
+
+#: includes/admin/Admin.php:872
+msgid "POS Logo"
+msgstr "POS logo"
+
+#: includes/admin/Admin.php:873
+msgid "Default Logo for POS Panel (ex: 100x50)"
+msgstr "Standaard logo voor POS paneel (bijv: 100x50)"
+
+#: includes/admin/Admin.php:880
+msgid "POS Type"
+msgstr "POS type"
+
+#: includes/admin/Admin.php:881
+msgid ""
+"Default display for POS , their are table management in cafe/restaurant type"
+msgstr ""
+"Standaard weergave voor POS, er is tafelmanagement bij cafe/restaurant type"
+
+#: includes/admin/Admin.php:885
+msgid "Grocery"
+msgstr "Winkel"
+
+#: includes/admin/Admin.php:886
+msgid "Cafe / Restaurant"
+msgstr "Café / restaurant"
+
+#: includes/admin/Admin.php:892
+msgid "Product Grid Size"
+msgstr "Productraster afmetingen"
+
+#: includes/admin/Admin.php:893
+msgid "Grid Size for Products (column x row)  on POS Panel"
+msgstr "Rasterafmetingen voor producten (kolom x rij) op POS paneel"
+
+#: includes/admin/Admin.php:901
+msgid "Category Grid Size"
+msgstr "Categorieraster afmetingen"
+
+#: includes/admin/Admin.php:902
+msgid "Grid Size for Categories (column x row)   on POS Panel"
+msgstr "Rasterafmetingen voor categorieën (kolom x rij) op POS paneel"
+
+#: includes/admin/Admin.php:910
+msgid "Default POS Language"
+msgstr "Standaard POS taal"
+
+#: includes/admin/Admin.php:911
+msgid ""
+"Default language on POS. To translate goto pos/assets/i18n/_you_lang.json "
+"and update this file"
+msgstr ""
+"Standaardtaal op POS. Voor vertalen ga naar pos/assets/i18n/_you_lang.json "
+"en update dit bestand"
+
+#: includes/admin/Admin.php:918
+msgid "Allow Add Custom Item"
+msgstr "Sta maatwerk artikelen toe"
+
+#: includes/admin/Admin.php:919
+msgid "Add custom item , the item do not exist in your system from POS"
+msgstr "Voeg maatwerk artikel toe, het artikel bestaat niet in uw POS"
+
+#: includes/admin/Admin.php:932
+msgid "Allow Add Order Note"
+msgstr "Sta ordernotities toe"
+
+#: includes/admin/Admin.php:933
+msgid "Add order note from POS"
+msgstr "Voeg ordernotitie toe vanuit POS"
+
+#: includes/admin/Admin.php:945
+msgid "Time Frequency"
+msgstr "Tijdfrequentie"
+
+#: includes/admin/Admin.php:946
+msgid "Time duration POS state checking (in mini seconds)"
+msgstr "Tijdsduur van POS status controle (in milliseconden)"
+
+#: includes/admin/Admin.php:952
+msgid "Product Auto Sync"
+msgstr "Product auto sync"
+
+#: includes/admin/Admin.php:953
+msgid "Auto sync product qty by running process in background"
+msgstr "Auto synchroniseer producthoeveelheid door achtergrondproces"
+
+#: includes/admin/Admin.php:963
+msgid "Clear Product List "
+msgstr "Leeg productlijst"
+
+#: includes/admin/Admin.php:964
+msgid ""
+"Auto clear product list on your local data after logout. Recommend set to "
+"\"No\" if you have > 500 products."
+msgstr ""
+"Automatisch legen productlijst lokale gegevens na uitloggen. \"Nee\" "
+"aanbevolen bij >500 producten."
+
+#: includes/admin/Admin.php:974
+msgid "Display Out of stock"
+msgstr "Toon niet op voorraad"
+
+#: includes/admin/Admin.php:975
+msgid "Display out of stock product in POS panel"
+msgstr "Toon niet op voorraad producten in POS paneel"
+
+#: includes/admin/Admin.php:985
+msgid "Allow Negative Qty"
+msgstr "Sta negatief aantal toe"
+
+#: includes/admin/Admin.php:986
+msgid "Allow negative qty , grand total  use as refund"
+msgstr "Sta negatief aantal toe, eindtotaal gebruiken als terugbetaling"
+
+#: includes/admin/Admin.php:996
+msgid "Allow Update Price"
+msgstr "Sta prijsupdate toe"
+
+#: includes/admin/Admin.php:997
+msgid ""
+"Allow change product price on POS panel. Require refresh product list to "
+"take effect."
+msgstr ""
+"Sta wijzigingen in productprijs toe op POS paneel. Vereist productlijst "
+"verversing voor effect"
+
+#: includes/admin/Admin.php:1007
+msgid "POS Image Width"
+msgstr "POS afbeeldingsbreedte"
+
+#: includes/admin/Admin.php:1008
+msgid "Width of image in pos in px"
+msgstr "Breedte van afbeelding in POS in pixels"
+
+#: includes/admin/Admin.php:1014
+msgid "POS Image Height"
+msgstr "POS afbeeldingshoogte"
+
+#: includes/admin/Admin.php:1015
+msgid "Height of image in pos in px"
+msgstr "Hoogte van afbeelding in POS in pixels"
+
+#: includes/admin/Admin.php:1021
+msgid "POS Custom CSS"
+msgstr "POS maatwerk CSS"
+
+#: includes/admin/Admin.php:1022
+msgid "Custom style for POS with CSS"
+msgstr "Maatwerk stijl voor POS met CSS"
+
+#: includes/admin/Admin.php:1028
+msgid "POS Category"
+msgstr "POS categorie"
+
+#: includes/admin/Admin.php:1029
+msgid ""
+"List of Categories display on POS panel. Enter keyword to search, this field "
+"is autocomplete"
+msgstr ""
+"Lijst van categorieën op POS paneel. Voer trefwoord in voor zoeken, dit veld "
+"heeft auto compleet functie"
+
+#: includes/admin/Admin.php:1035
+msgid "POS Money List"
+msgstr "POS geld lijst"
+
+#: includes/admin/Admin.php:1036
+msgid ""
+"List of money values in your pos. Separate by \"|\" character. Example: 10|"
+"20|30"
+msgstr ""
+"Lijst van geldwaarden in uw POS. Scheidt met \" | \" teken. Bijv. 10|20|50"
+
+#: includes/admin/Admin.php:1042
+msgid "Quick Item Discount Amount"
+msgstr "Snel artikelkortingbedrag"
+
+#: includes/admin/Admin.php:1043 includes/admin/Admin.php:1050
+msgid ""
+"List of quick discount values in your pos. Separate by \"|\" character. "
+"Example: 5|5%|10%"
+msgstr ""
+"Lijst van snelle kortingwaarden in uw POS. Scheidt met \" | \" teken. "
+"Voorbeeld: 5|5%|10%"
+
+#: includes/admin/Admin.php:1049
+msgid "Quick Cart Discount Amount"
+msgstr "Snel aankoopkorting bedrag"
+
+#: includes/admin/Admin.php:1056
+msgid "Require customer"
+msgstr "Vereis klant"
+
+#: includes/admin/Admin.php:1057
+msgid "Require checkout with customer added only in POS"
+msgstr "Vereis afrekenen met klantgegevens in POS"
+
+#: includes/admin/Admin.php:1067
+msgid "Open Cash When Login"
+msgstr "Open kassa bij login"
+
+#: includes/admin/Admin.php:1068
+msgid "Open Cash Adjustment Popup when login to POS"
+msgstr "Open kassa instelling popup bij inloggen op POS"
+
+#: includes/admin/Admin.php:1079
+msgid "Search Mode"
+msgstr "Zoekmodus"
+
+#: includes/admin/Admin.php:1080
+msgid "The way of search when type keyword on search box on POS"
+msgstr "Wijze van zoeken wanneer trefwoord ingetypt op POS"
+
+#: includes/admin/Admin.php:1084
+msgid "Offline - Local browser data search"
+msgstr "Offline - locale browser zoeken"
+
+#: includes/admin/Admin.php:1085
+msgid "Online - Seach by your website"
+msgstr "Online - Zoek via de website"
+
+#: includes/admin/Admin.php:1090
+msgid "Search Display Type"
+msgstr "Zoekdisplay type"
+
+#: includes/admin/Admin.php:1091
+msgid "Layout of result return by search product input "
+msgstr "Layout van zoekresultaat"
+
+#: includes/admin/Admin.php:1095
+msgid "Auto Suggestion"
+msgstr "Autosuggestie"
+
+#: includes/admin/Admin.php:1096
+msgid "Product Grid Display"
+msgstr "Productraster weergave"
+
+#: includes/admin/Admin.php:1101
+msgid "Total Search Result"
+msgstr "Totaal zoekresultaat"
+
+#: includes/admin/Admin.php:1102
+msgid "Number of search result"
+msgstr "Aantal zoekresultaten"
+
+#: includes/admin/Admin.php:1109
+msgid "Payment Type"
+msgstr "Betaalmethode"
+
+#: includes/admin/Admin.php:1110
+msgid "Logic for Payment method type use in POS checkout"
+msgstr "Logica voor betaalmethode gebruik in POS afrekenen"
+
+#: includes/admin/Admin.php:1114
+msgid "Split Multi Payment"
+msgstr "Splits multi-betaling"
+
+#: includes/admin/Admin.php:1115
+msgid "Single Payment"
+msgstr "Enkele betaling"
+
+#: includes/admin/Admin.php:1120
+msgid "Allow Digital Scale"
+msgstr "Sta digitale schaal toe"
+
+#: includes/admin/Admin.php:1121
+msgid "Allow scan barcode with label generate by digital scale"
+msgstr "Sta scannen van barcode met label van digitale schaal toe"
+
+#: includes/admin/Admin.php:1142
+msgid "Number Input"
+msgstr "Nummerinvoer"
+
+#: includes/admin/Admin.php:1143
+msgid "Number field with validation callback `floatval`"
+msgstr "Nummerveld met validatie"
+
+#: includes/admin/Admin.php:1144
+msgid "1.99"
+msgstr ""
+
+#: includes/admin/Admin.php:1154
+msgid "Textarea Input"
+msgstr "Tekstinvoer"
+
+#: includes/admin/Admin.php:1155
+msgid "Textarea description"
+msgstr "Tekst omschrijving"
+
+#: includes/admin/Admin.php:1156
+msgid "Textarea placeholder"
+msgstr "Tekst placeholder"
+
+#: includes/admin/Admin.php:1161
+msgid ""
+"HTML area description. You can use any <strong>bold</strong> or other HTML "
+"elements."
+msgstr ""
+
+#: includes/admin/Admin.php:1166
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/Admin.php:1167
+msgid "Checkbox Label"
+msgstr ""
+
+#: includes/admin/Admin.php:1172
+msgid "Radio Button"
+msgstr ""
+
+#: includes/admin/Admin.php:1173
+msgid "A radio button"
+msgstr ""
+
+#: includes/admin/Admin.php:1182
+msgid "A Dropdown"
+msgstr ""
+
+#: includes/admin/Admin.php:1183
+msgid "Dropdown description"
+msgstr ""
+
+#: includes/admin/Admin.php:1193 includes/admin/Admin.php:1219
+msgid "Password"
+msgstr ""
+
+#: includes/admin/Admin.php:1194 includes/admin/Admin.php:1220
+msgid "Password description"
+msgstr ""
+
+#: includes/admin/Admin.php:1200
+msgid "File"
+msgstr ""
+
+#: includes/admin/Admin.php:1201
+msgid "File description"
+msgstr ""
+
+#: includes/admin/Admin.php:1213
+msgid "Color description"
+msgstr ""
+
+#: includes/admin/Admin.php:1233
+msgid "Multile checkbox"
+msgstr ""
+
+#: includes/admin/Admin.php:1234
+msgid "Multi checkbox description"
+msgstr ""
+
+#: includes/admin/Admin.php:1321 includes/admin/Admin.php:1335
+#: includes/admin/Admin.php:1423 includes/admin/Admin.php:1437
+#: includes/admin/Admin.php:1903 includes/admin/Admin.php:1917
+msgid "edit"
+msgstr "wijzig"
+
+#: includes/admin/Admin.php:1339 includes/admin/Admin.php:1440
+msgid "Print Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:1369
+msgid "Unlimited"
+msgstr "Onbeperkt"
+
+#: includes/admin/Admin.php:1677
+#: templates/admin/receipt_template_composer.php:56
+#: templates/admin/warehouse/adjust_stock.php:75
+msgid "Update"
+msgstr ""
+
+#: includes/admin/Admin.php:2083 includes/admin/Admin.php:3065
+#: templates/admin/report/report_form.php:7
+msgid "Cash"
+msgstr "Contant"
+
+#: includes/admin/Admin.php:2368 includes/admin/Admin.php:2562
+msgid "Setting"
+msgstr "Instelling"
+
+#: includes/admin/Admin.php:2377 includes/admin/Admin.php:2528
+#: includes/admin/Admin.php:2747 templates/admin/warehouses.php:184
+#: templates/admin/warehouses.php:189 templates/admin/registers.php:161
+msgid "Transactions"
+msgstr "Transacties"
+
+#: includes/admin/Admin.php:2378
+msgid "Transaction"
+msgstr "Transactie"
+
+#: includes/admin/Admin.php:2380 includes/admin/Admin.php:2404
+#: includes/admin/Admin.php:2428 includes/admin/Admin.php:2452
+#: includes/admin/Admin.php:2476
+msgid ""
+"This is where you can add new transaction that customers can use in your "
+"store."
+msgstr ""
+
+#: includes/admin/Admin.php:2401 includes/admin/Admin.php:2402
+msgid "Z-Report"
+msgstr "Z-rapport"
+
+#: includes/admin/Admin.php:2425 includes/admin/Admin.php:2426
+msgid "Warehouse"
+msgstr "Vestiging"
+
+#: includes/admin/Admin.php:2473 includes/admin/Admin.php:2474
+#: templates/admin/transactions.php:22
+#: templates/admin/report/report_form.php:67
+msgid "Register"
+msgstr "Kassa"
+
+#: includes/admin/Admin.php:2522
+msgid "Open POS"
+msgstr ""
+
+#: includes/admin/Admin.php:2522
+msgid "POS"
+msgstr ""
+
+#: includes/admin/Admin.php:2525
+msgid "POS - Orders"
+msgstr "POS - bestellingen"
+
+#: includes/admin/Admin.php:2525 templates/admin/warehouses.php:186
+#: templates/admin/warehouses.php:191 templates/admin/registers.php:163
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: includes/admin/Admin.php:2528
+msgid "POS - Transactions"
+msgstr "POS - Transacties"
+
+#: includes/admin/Admin.php:2531
+msgid "POS - Products"
+msgstr "POS - Producten"
+
+#: includes/admin/Admin.php:2531
+msgid "Products Barcode"
+msgstr "Productbarcodes"
+
+#: includes/admin/Admin.php:2534
+msgid "POS - Staffs"
+msgstr "POS - personeel"
+
+#: includes/admin/Admin.php:2534
+msgid "Store Staff"
+msgstr "Winkelpersoneel"
+
+#: includes/admin/Admin.php:2539
+msgid "POS - Registers"
+msgstr "POS - kassa's"
+
+#: includes/admin/Admin.php:2539 templates/admin/registers.php:59
+msgid "Registers"
+msgstr "Kassa's"
+
+#: includes/admin/Admin.php:2542
+msgid "POS - Outlets"
+msgstr "POS - Verkooppunten"
+
+#: includes/admin/Admin.php:2542 templates/admin/warehouses.php:56
+#: templates/admin/warehouse/new.php:49
+msgid "Outlets"
+msgstr "Verkooppunten"
+
+#: includes/admin/Admin.php:2547
+msgid "POS - Tables"
+msgstr "POS - tafels"
+
+#: includes/admin/Admin.php:2551
+msgid "POS - Adjust Stock"
+msgstr "POS - stel voorraad in"
+
+#: includes/admin/Admin.php:2551
+msgid "Stock Overview"
+msgstr "Voorraadoverzicht"
+
+#: includes/admin/Admin.php:2554
+msgid "POS - Reports"
+msgstr "POS - Rapporten"
+
+#: includes/admin/Admin.php:2554
+msgid "Reports"
+msgstr "Rapporten"
+
+#: includes/admin/Admin.php:2559
+msgid "Receipt Templates"
+msgstr "Bon sjablonen"
+
+#: includes/admin/Admin.php:2562
+msgid "POS - Setting"
+msgstr "POS - Instellingen"
+
+#: includes/admin/Admin.php:2565
+msgid "POS - Sessions"
+msgstr "POS - Sessies"
+
+#: includes/admin/Admin.php:2565
+msgid "Login Sessions"
+msgstr "Loginsessies"
+
+#: includes/admin/Admin.php:2589 includes/admin/Admin.php:2989
+#: includes/admin/Admin.php:3121 includes/admin/Admin.php:3248
+#: includes/admin/Admin.php:3370 includes/admin/Admin.php:3577
+#: includes/admin/Admin.php:3691 includes/admin/Admin.php:3797
+#: includes/admin/Admin.php:3913 includes/admin/Admin.php:4210
+msgid "View"
+msgstr "Weergave"
+
+#: includes/admin/Admin.php:2609 templates/admin/sessions.php:20
+msgid "Unlink"
+msgstr ""
+
+#: includes/admin/Admin.php:2745 includes/admin/Admin.php:3005
+#: includes/admin/Admin.php:3180 includes/admin/Admin.php:3426
+#: includes/admin/Admin.php:3703 includes/admin/Admin.php:3848
+#: includes/admin/Admin.php:4161 templates/admin/orders.php:16
+#: templates/admin/report/report_form.php:113
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/Admin.php:2746 includes/admin/Admin.php:3181
+#: includes/admin/Admin.php:3427 includes/admin/Admin.php:3704
+#: includes/admin/Admin.php:3849 includes/admin/Admin.php:4162
+#: templates/admin/dashboard.php:62
+msgid "Sales"
+msgstr "Verkopen"
+
+#: includes/admin/Admin.php:2984 includes/admin/Admin.php:3116
+#: includes/admin/Admin.php:3167 includes/admin/Admin.php:3365
+#: includes/admin/Admin.php:3414 includes/admin/Admin.php:3686
+#: includes/admin/Admin.php:3694 templates/admin/orders.php:15
+msgid "Order"
+msgstr "Bestelling"
+
+#: includes/admin/Admin.php:2986 includes/admin/Admin.php:3843
+msgid "Commision Total"
+msgstr "Totale commissie"
+
+#: includes/admin/Admin.php:2987 includes/admin/Admin.php:3119
+#: includes/admin/Admin.php:3170 includes/admin/Admin.php:3368
+#: includes/admin/Admin.php:3417 includes/admin/Admin.php:3689
+#: includes/admin/Admin.php:3697 includes/admin/Admin.php:3844
+#: templates/admin/report/report_sales_table.php:11
+msgid "Cashier"
+msgstr "Kassière"
+
+#: includes/admin/Admin.php:2988 includes/admin/Admin.php:3000
+#: includes/admin/Admin.php:3120 includes/admin/Admin.php:3171
+#: includes/admin/Admin.php:3369 includes/admin/Admin.php:3418
+#: includes/admin/Admin.php:3690 includes/admin/Admin.php:3698
+#: includes/admin/Admin.php:3845 templates/admin/transactions.php:24
+#: templates/admin/dashboard.php:247 templates/admin/receipt_templates.php:126
+msgid "Created At"
+msgstr "Aangemaakt op"
+
+#: includes/admin/Admin.php:2996 templates/admin/transactions.php:18
+#: templates/admin/report/report_transactions_table.php:8
+msgid "Ref"
+msgstr ""
+
+#: includes/admin/Admin.php:2997 templates/admin/transactions.php:19
+#: templates/admin/report/report_transactions_table.php:9
+msgid "IN"
+msgstr ""
+
+#: includes/admin/Admin.php:2998 templates/admin/transactions.php:20
+#: templates/admin/report/report_transactions_table.php:10
+msgid "OUT"
+msgstr "UIT"
+
+#: includes/admin/Admin.php:2999 templates/admin/transactions.php:21
+#: templates/admin/report/print_z_report.php:128
+#: templates/admin/report/report_transactions_table.php:11
+msgid "Method"
+msgstr "Methode"
+
+#: includes/admin/Admin.php:3001 templates/admin/receipt_templates.php:125
+msgid "Created By"
+msgstr "Aangemaakt door"
+
+#: includes/admin/Admin.php:3006 templates/admin/transactions.php:12
+#: templates/admin/dashboard.php:73
+msgid "Cash Transactions"
+msgstr "Contant transacties"
+
+#: includes/admin/Admin.php:3092
+msgid "Total IN"
+msgstr "Totaal IN"
+
+#: includes/admin/Admin.php:3103
+msgid "Total OUT"
+msgstr "Totaal UIT"
+
+#: includes/admin/Admin.php:3118 includes/admin/Admin.php:3169
+#: includes/admin/Admin.php:3367 includes/admin/Admin.php:3416
+msgid "Seller Amount"
+msgstr "Verkoper bedrag"
+
+#: includes/admin/Admin.php:3130 includes/admin/Admin.php:3138
+#: includes/admin/Admin.php:3159 includes/admin/Admin.php:3379
+#: includes/admin/Admin.php:3385 includes/admin/Admin.php:3405
+#: templates/admin/sessions.php:15
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/admin/Admin.php:3131 includes/admin/Admin.php:3139
+#: includes/admin/Admin.php:3380 includes/admin/Admin.php:3386
+#: templates/admin/warehouses.php:134 templates/admin/cashier.php:24
+#: templates/admin/warehouse/new.php:121
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/admin/Admin.php:3132 includes/admin/Admin.php:3140
+#: includes/admin/Admin.php:3381 includes/admin/Admin.php:3387
+msgid "Sold Total"
+msgstr "Verkocht totaal"
+
+#: includes/admin/Admin.php:3133 includes/admin/Admin.php:3141
+#: includes/admin/Admin.php:3382 includes/admin/Admin.php:3388
+msgid "Sold QTY"
+msgstr "Verkocht aantal"
+
+#: includes/admin/Admin.php:3134 includes/admin/Admin.php:3142
+msgid "Total Order"
+msgstr "Totaal bestelling"
+
+#: includes/admin/Admin.php:3268 includes/admin/Admin.php:3338
+#: includes/admin/Admin.php:3596 includes/admin/Admin.php:3661
+msgid "Total Qty"
+msgstr "Totaal aantal"
+
+#: includes/admin/Admin.php:3347 includes/admin/Admin.php:3819
+#: includes/admin/Admin.php:3931
+#: templates/admin/report/report_sales_chart.php:6
+msgid "Total Orders"
+msgstr "Totaal bestellingen"
+
+#: includes/admin/Admin.php:3688 includes/admin/Admin.php:3696
+msgid "Method Amount"
+msgstr "Methode bedrag"
+
+#: includes/admin/Admin.php:3850
+msgid "Commsion"
+msgstr "Commissie"
+
+#: includes/admin/Admin.php:3940
+msgid "Total Commsion"
+msgstr "Totale commissie"
+
+#: includes/admin/Admin.php:3971 includes/admin/Admin.php:3976
+#: includes/admin/Admin.php:3984
+msgid "Product"
+msgstr ""
+
+#: includes/admin/Admin.php:3972 includes/admin/Admin.php:3977
+#: includes/admin/Admin.php:3985
+msgid "QTY"
+msgstr "Aantal"
+
+#: includes/admin/Admin.php:3973 includes/admin/Admin.php:3978
+#: includes/admin/Admin.php:3986
+msgid "Sale"
+msgstr "Verkoop"
+
+#: includes/admin/Admin.php:4363
+msgid "Guest"
+msgstr "Gast"
+
+#: includes/admin/Admin.php:4955 includes/admin/Admin.php:5006
+msgid "Please enter register name"
+msgstr "Voer kassanaam in"
+
+#: includes/admin/Admin.php:4980
+msgid "Please choose register to delete"
+msgstr "Kies kassa om te verwijderen"
+
+#: includes/admin/Admin.php:5031
+msgid "Please choose table to delete"
+msgstr "Kies tafel om te verwijderen"
+
+#: includes/admin/Admin.php:5058
+msgid "Please enter outlet name"
+msgstr "Kies verkooppunt naam"
+
+#: includes/admin/Admin.php:5086
+msgid "Please choose warehouse to delete"
+msgstr "Kies vestiging om te verwijderen"
+
+#: includes/admin/Admin.php:5112 includes/admin/Admin.php:5282
+#: includes/front/Front.php:589
+msgid "Please enter barcode to search"
+msgstr "Kies barcode om te zoeken"
+
+#: includes/admin/Admin.php:5118 templates/admin/registers.php:75
+#: templates/admin/registers.php:137 templates/admin/tables.php:73
+#: templates/admin/tables.php:138 templates/admin/report/report_form.php:55
+msgid "Outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:5144 includes/admin/Admin.php:5302
+#: includes/front/Front.php:661
+msgid "No product found. Please check your barcode !"
+msgstr "Geen product gevonden. Controleer uw barcode !"
+
+#: includes/admin/Admin.php:5161
+msgid "Your warehouse do not exist."
+msgstr "Uw vestiging bestaat niet."
+
+#: includes/admin/Admin.php:5175 templates/admin/stock.php:40
+#: templates/admin/products.php:15 templates/admin/warehouse/inventory.php:19
+#: templates/admin/warehouse/adjust_stock.php:34
+msgid "Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:5175 templates/admin/warehouses.php:165
+#: templates/admin/cashier.php:23 templates/admin/registers.php:69
+#: templates/admin/registers.php:135 templates/admin/tables.php:67
+#: templates/admin/tables.php:137 templates/admin/receipt_templates.php:96
+msgid "Name"
+msgstr "Naam"
+
+#: includes/admin/Admin.php:5458
+msgid ""
+"Your setting has been update succes. Don't forget Logout and Login POS again "
+"to take effect on POS panel !"
+msgstr ""
+"Uw instelling is bijgewerkt. Vergeet niet om uit en weer in te loggen "
+"voordat het effect zichtbaar is !"
+
+#: includes/admin/Admin.php:5593 includes/admin/Admin.php:5618
+msgid "OP Cost price"
+msgstr "OP kostprijs"
+
+#: includes/admin/Admin.php:5596 includes/admin/Admin.php:5623
+msgid "Cost price - Use to get commision report"
+msgstr "Kostprijs - Gebruik voor commissierapport"
+
+#: includes/admin/Admin.php:5621
+msgid "Cost price"
+msgstr "Kostprijs"
+
+#: includes/admin/Admin.php:5642
+msgid "POS Weight-base Pricing"
+msgstr "POS gewicht-gebaseerde prijsbepaling"
+
+#: includes/front/Front.php:826
+msgid "User Name and Password can not empty."
+msgstr "Gebruikersnaam en wachtwoord kunnen niet leeg zijn."
+
+#: includes/front/Front.php:850
+msgid ""
+"You have no permission to access POS. Please contact with admin to resolve "
+"it."
+msgstr ""
+"U heeft geen toegang tot POS. Neem contact op met admin om dit op te lossen."
+
+#: includes/front/Front.php:855
+msgid ""
+"You have no grant access to any Register POS. Please contact with admin to "
+"assign your account to POS Register."
+msgstr "U hebt geen toegang tot een POS kassa. Neem contact op met admin."
+
+#: includes/front/Front.php:977
+msgid "Please enter password"
+msgstr "Voer wachtwoord in aub"
+
+#: includes/front/Front.php:982
+msgid "Your password is incorrect. Please try again."
+msgstr "Uw wachtwoord is onjuist. Probeer opnieuw."
+
+#: includes/front/Front.php:1452
+#, php-format
+msgid "No customer with search keyword: %s"
+msgstr "Geen klant met zoekwoord: %s"
+
+#: includes/front/Front.php:1504
+msgid "There are multi user with same term"
+msgstr "Er zijn meerdere gebruikers met deze zoekterm"
+
+#: includes/front/Front.php:1508
+#, php-format
+msgid "No customer found with %s : \"%s\""
+msgstr "Geen klant gevonden met %s : \"%s\""
+
+#: includes/front/Front.php:1540
+#, php-format
+msgid "Please enter any keyword for \"%s\" to search customer"
+msgstr "Voer zoekwoord in voor \"%s\" om klant te zoeken"
+
+#: includes/front/Front.php:1653
+msgid "Please enter phone number"
+msgstr "Voer telefoonnummer in"
+
+#: includes/front/Front.php:1834 includes/front/Front.php:1922
+#: includes/front/Front.php:1927
+msgid "Customer do not exist"
+msgstr "Klant bestaat niet"
+
+#: includes/front/Front.php:2159
+msgid "Exchange Fee"
+msgstr "Wissel fooi"
+
+#: includes/front/Front.php:2168
+msgid "Addition total for exchange items"
+msgstr "Extra totaal voor wissel items"
+
+#: includes/front/Front.php:2656
+msgid "Global POS Cart Discount"
+msgstr "Algemene POS bestellingskorting"
+
+#: includes/front/Front.php:2873
+msgid "POS Customer Pickup"
+msgstr "POS klant pickup"
+
+#: includes/front/Front.php:3058 includes/front/Front.php:3272
+msgid "Pay On POS"
+msgstr "Betaal op POS"
+
+#: includes/front/Front.php:3064 includes/front/Front.php:3277
+msgid "Multi Methods"
+msgstr "Multimethoden"
+
+#: includes/front/Front.php:3137 includes/front/Front.php:3292
+msgid "Done via OpenPos"
+msgstr "Gedaan via OpenPOS"
+
+#: includes/front/Front.php:3139
+msgid "Create via OpenPos"
+msgstr "Aanmaken via OpenPOS"
+
+#: includes/front/Front.php:3432
+msgid "Coupon code has been expired"
+msgstr "Coupon code is verlopen"
+
+#: includes/front/Front.php:3610
+msgid "Closed from POS"
+msgstr "Gesloten vanuit POS"
+
+#: includes/front/Front.php:3751
+msgid "No order found"
+msgstr "Geen bestelling gevonden"
+
+#: includes/front/Front.php:3868
+msgid "Order do not allow pickup from store"
+msgstr "Bestelling staat geen pickup vanuit winkel toe"
+
+#: includes/front/Front.php:3996
+msgid "No cart found"
+msgstr "Geen bestelling gevonden"
+
+#: includes/front/Front.php:4321
+msgid "Your login session has been clean. Please try login again"
+msgstr "Uw login sessie is leeg. Probeer opnieuw in te loggen"
+
+#: includes/front/Front.php:4420
+msgid "Your have no grant to any register"
+msgstr "U heeft geen rechten een kassa"
+
+#: includes/front/Front.php:4556
+msgid "Please enter product barcode"
+msgstr "Voer product barcode in"
+
+#: lib/integration/grconnect.php:406
+msgid " discount"
+msgstr "korting"
+
+#: templates/admin/transactions.php:17 templates/admin/sessions.php:14
+#: templates/admin/stock.php:39 templates/admin/cashier.php:22
+#: templates/admin/products.php:14 templates/admin/orders.php:14
+#: templates/admin/report/report_transactions_table.php:7
+#: templates/admin/warehouse/inventory.php:18
+msgid "ID"
+msgstr ""
+
+#: templates/admin/transactions.php:23 templates/admin/orders.php:18
+#: templates/admin/report/report_transactions_table.php:13
+msgid "By"
+msgstr "door"
+
+#: templates/admin/warehouses.php:61
+msgid "New Outlet"
+msgstr "Nieuw verkooppunt"
+
+#: templates/admin/warehouses.php:61
+msgid "Edit Outlet"
+msgstr "Wijzig verkooppunt"
+
+#: templates/admin/warehouses.php:65
+msgid "Add New Outlet"
+msgstr "Voeg verkooppunt toe"
+
+#: templates/admin/warehouses.php:75 templates/admin/warehouse/new.php:62
+msgid "General Information"
+msgstr "Algemene informatie"
+
+#: templates/admin/warehouses.php:77 templates/admin/warehouse/new.php:64
+msgid "Outlet Name"
+msgstr "Outlet naam"
+
+#: templates/admin/warehouses.php:84 templates/admin/warehouse/new.php:71
+msgid "Address line 1"
+msgstr "Adresregel 1"
+
+#: templates/admin/warehouses.php:87 templates/admin/warehouse/new.php:74
+msgid "The street address for your business location."
+msgstr "Straat van uw locatie"
+
+#: templates/admin/warehouses.php:91 templates/admin/warehouse/new.php:78
+msgid "Address line 2"
+msgstr "Adresregel 2"
+
+#: templates/admin/warehouses.php:94 templates/admin/warehouse/new.php:81
+msgid "An additional, optional address line for your business location."
+msgstr "Optionele extra adresregel voor uw locatie."
+
+#: templates/admin/warehouses.php:101 templates/admin/warehouse/new.php:88
+msgid "The city in which your business is located."
+msgstr "De plaats waar uw zaak is gesitueerd."
+
+#: templates/admin/warehouses.php:105 templates/admin/warehouse/new.php:92
+msgid "Country / State"
+msgstr "Land / Staat/provincie"
+
+#: templates/admin/warehouses.php:108 templates/admin/warehouse/new.php:95
+msgid "Default store"
+msgstr "Standaard winkel"
+
+#: templates/admin/warehouses.php:113 templates/admin/warehouse/new.php:100
+msgid ""
+"The country and state or province, if any, in which your business is located."
+msgstr ""
+"Het land en staat/provincie (indien beschikbaar) waar uw zaak is gesitureerd."
+
+#: templates/admin/warehouses.php:117 templates/admin/warehouse/new.php:104
+msgid "Postcode / ZIP"
+msgstr "Postcode"
+
+#: templates/admin/warehouses.php:120 templates/admin/warehouse/new.php:107
+msgid "The postal code, if any, in which your business is located."
+msgstr "Postcode van uw zaak."
+
+#: templates/admin/warehouses.php:124 templates/admin/warehouses.php:167
+#: templates/admin/dashboard.php:248 templates/admin/registers.php:113
+#: templates/admin/registers.php:139 templates/admin/tables.php:117
+#: templates/admin/tables.php:140 templates/admin/receipt_templates.php:102
+#: templates/admin/receipt_templates.php:127 templates/admin/orders.php:20
+#: templates/admin/warehouse/new.php:111
+msgid "Status"
+msgstr "Status"
+
+#: templates/admin/warehouses.php:127 templates/admin/registers.php:116
+#: templates/admin/tables.php:120 templates/admin/tables.php:175
+#: templates/admin/receipt_templates.php:105
+#: templates/admin/warehouse/new.php:114
+msgid "Active"
+msgstr "Actief"
+
+#: templates/admin/warehouses.php:128 templates/admin/registers.php:117
+#: templates/admin/tables.php:121 templates/admin/tables.php:175
+#: templates/admin/receipt_templates.php:106
+#: templates/admin/warehouse/new.php:115
+msgid "Inactive"
+msgstr "Niet actief"
+
+#: templates/admin/warehouses.php:132 templates/admin/warehouse/new.php:119
+msgid "Contact Information"
+msgstr "Contactinformatie"
+
+#: templates/admin/warehouses.php:140 templates/admin/warehouse/new.php:127
+msgid "Phone"
+msgstr "Telefoon"
+
+#: templates/admin/warehouses.php:146 templates/admin/warehouse/new.php:133
+msgid "Facebook"
+msgstr ""
+
+#: templates/admin/warehouses.php:154 templates/admin/registers.php:124
+#: templates/admin/tables.php:127 templates/admin/receipt_templates.php:112
+#: templates/admin/warehouse/new.php:141
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/admin/warehouses.php:166
+msgid "Address"
+msgstr "Adres"
+
+#: templates/admin/warehouses.php:176
+#: templates/admin/warehouse/inventory.php:11
+msgid "Inventory"
+msgstr "Voorraad"
+
+#: templates/admin/warehouses.php:180 templates/admin/registers.php:157
+#: templates/admin/tables.php:158 templates/admin/receipt_templates.php:136
+msgid "Edit"
+msgstr "Wijzig"
+
+#: templates/admin/warehouses.php:182 templates/admin/registers.php:159
+#: templates/admin/tables.php:160 templates/admin/receipt_templates.php:138
+#: templates/admin/warehouse/adjust_stock.php:145
+#: templates/admin/warehouse/adjust_stock.php:227
+msgid "Delete"
+msgstr "Verwijder"
+
+#: templates/admin/warehouses.php:195
+msgid "Kitchen Screen"
+msgstr "Keukenscherm"
+
+#: templates/admin/dashboard.php:16
+msgid ""
+"This function to reset cash balance on your cash drawer to 0. Are you sure ?"
+msgstr "Kassaldo van uw kassalade weer op 0 zetten. Weet u het zeker?"
+
+#: templates/admin/dashboard.php:66
+#: templates/admin/report/report_sales_chart.php:70
+#: templates/admin/report/report_form.php:200
+msgid "Commission"
+msgstr "Commissie"
+
+#: templates/admin/dashboard.php:84
+msgid "All Sales"
+msgstr "Alle verkopen"
+
+#: templates/admin/dashboard.php:118
+msgid "Sale by Register"
+msgstr "Verkoop per kassa"
+
+#: templates/admin/dashboard.php:118
+msgid "Sale by Outlet"
+msgstr "Verkoop per verkooppunt"
+
+#: templates/admin/dashboard.php:155
+msgid "Sales by Seller"
+msgstr "Verkoop per verkoper"
+
+#: templates/admin/dashboard.php:189
+msgid "Sales by Payment"
+msgstr "Verkoop per betalingstype"
+
+#: templates/admin/dashboard.php:200
+msgid "Goto POS"
+msgstr "Ga naar POS"
+
+#: templates/admin/dashboard.php:204 templates/admin/report/report_form.php:105
+msgid "Last 7 Days"
+msgstr "Laatste 7 dagen"
+
+#: templates/admin/dashboard.php:205
+msgid "Last 30 days"
+msgstr "Laatste 30 dagen"
+
+#: templates/admin/dashboard.php:206 templates/admin/report/report_form.php:104
+msgid "This Week"
+msgstr "Deze week"
+
+#: templates/admin/dashboard.php:207
+msgid "This Month"
+msgstr "Deze maand"
+
+#: templates/admin/dashboard.php:208 templates/admin/report/report_form.php:102
+msgid "Today"
+msgstr "Vandaag"
+
+#: templates/admin/dashboard.php:238
+msgid "Last Orders"
+msgstr "Laatste bestellingen"
+
+#: templates/admin/dashboard.php:244
+msgid "Customer"
+msgstr "Klant"
+
+#: templates/admin/dashboard.php:246
+msgid "Sale By"
+msgstr "Verkoop door"
+
+#: templates/admin/dashboard.php:267
+msgid "Cash Balance"
+msgstr "Contant balans"
+
+#: templates/admin/sessions.php:2
+msgid "Active Login Sessions"
+msgstr "Actieve loginsessies"
+
+#: templates/admin/sessions.php:6
+msgid "Clear All"
+msgstr "Leeg alles"
+
+#: templates/admin/sessions.php:16
+msgid "Login Date"
+msgstr "Logindatum"
+
+#: templates/admin/sessions.php:17
+msgid "IP "
+msgstr ""
+
+#: templates/admin/sessions.php:18
+msgid "Register "
+msgstr "Kassa"
+
+#: templates/admin/sessions.php:19
+msgid "Location "
+msgstr "Locatie"
+
+#: templates/admin/sessions.php:36
+msgid "Your Location"
+msgstr "Uw locatie"
+
+#: templates/admin/print_barcode.php:32
+msgid "Barcode Label Composer"
+msgstr "Barcodelabel ontwerper"
+
+#: templates/admin/print_barcode.php:40
+msgid "Unit:"
+msgstr "Eenheid:"
+
+#: templates/admin/print_barcode.php:43
+msgid "Inch"
+msgstr ""
+
+#: templates/admin/print_barcode.php:44
+msgid "Millimeter"
+msgstr ""
+
+#: templates/admin/print_barcode.php:49
+msgid "Sheet Width x Height:"
+msgstr "Papier breedte x hoogte:"
+
+#: templates/admin/print_barcode.php:53
+msgid "Vertical Spacing:"
+msgstr "Verticale ruimte:"
+
+#: templates/admin/print_barcode.php:57
+msgid "Horizontal Spacing:"
+msgstr "Horizontale ruimte:"
+
+#: templates/admin/print_barcode.php:63
+msgid "Sheet Margin (top x right x bottom x left):"
+msgstr "Papier marge (top x rechts x bodem x links):"
+
+#: templates/admin/print_barcode.php:73
+msgid "Label Size (w x h):"
+msgstr "Label afmetingen (b x h):"
+
+#: templates/admin/print_barcode.php:79
+msgid "Label Padding (top x right x bottom x left):"
+msgstr "Label opvulling (top x rechts x bodem x links):"
+
+#: templates/admin/print_barcode.php:89
+msgid "Barcode Image Size ( w x h ):"
+msgstr "Barcode afbeeldingsgrootte (b x h):"
+
+#: templates/admin/print_barcode.php:95
+msgid "Template:"
+msgstr "Sjabloon:"
+
+#: templates/admin/print_barcode.php:104
+msgid "Number Of Label:"
+msgstr "Aantal labels:"
+
+#: templates/admin/print_barcode.php:110
+msgid "Save And Preview"
+msgstr "Opslaan en voorbeeld"
+
+#: templates/admin/print_barcode.php:122
+#: templates/admin/receipt_template_composer.php:57
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: templates/admin/stock.php:8
+msgid "POS Stock Overview"
+msgstr "POS voorraad overzicht"
+
+#: templates/admin/stock.php:16
+msgid "Choose Warehouse"
+msgstr "Kies vestiging"
+
+#: templates/admin/stock.php:19
+msgid "All Warehouse"
+msgstr "Alle vestigingen"
+
+#: templates/admin/stock.php:25
+msgid "Choose"
+msgstr "Kies"
+
+#: templates/admin/stock.php:41 templates/admin/products.php:16
+#: templates/admin/warehouse/inventory.php:20
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: templates/admin/stock.php:42 templates/admin/products.php:17
+#: templates/admin/warehouse/inventory.php:21
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: templates/admin/cashier.php:11
+msgid "POS Cashiers"
+msgstr "POS kassières"
+
+#: templates/admin/cashier.php:14
+msgid "All Users"
+msgstr "Alle gebruikers"
+
+#: templates/admin/cashier.php:15
+msgid "Staff Only"
+msgstr "Alleen personeel"
+
+#: templates/admin/cashier.php:25
+msgid "Is POS Staff ?"
+msgstr "Is POS personeel ?"
+
+#: templates/admin/registers.php:64
+msgid "New Register"
+msgstr "Nieuwe kassa"
+
+#: templates/admin/registers.php:64
+msgid "Edit Register"
+msgstr "Wijzig kassa"
+
+#: templates/admin/registers.php:82
+msgid "Default online store = Online woocommerce website stock"
+msgstr ""
+
+#: templates/admin/registers.php:88 templates/admin/registers.php:136
+msgid "Cashiers"
+msgstr "Kassières"
+
+#: templates/admin/registers.php:103
+msgid "Cashier Mode"
+msgstr "Kassière modus"
+
+#: templates/admin/registers.php:104
+msgid "Seller Mode - No checkout button"
+msgstr "Verkoop modus - geen afrekenknop"
+
+#: templates/admin/registers.php:105
+msgid "Customer Mode - Submit Order"
+msgstr "Klant modus - verzend  bestelling"
+
+#: templates/admin/registers.php:107
+msgid "Waiter Mode - No checkout button"
+msgstr "Over modus - geen afrekenknop"
+
+#: templates/admin/registers.php:131 templates/admin/report/report_form.php:70
+msgid "All Registers"
+msgstr "Alle kassa's"
+
+#: templates/admin/registers.php:138
+msgid "Balance"
+msgstr "Balans"
+
+#: templates/admin/registers.php:165
+msgid "Bill Screen"
+msgstr "Rekening-scherm"
+
+#: templates/admin/registers.php:188
+msgid "No register found"
+msgstr "Geen kassa's gevonden"
+
+#: templates/admin/tables.php:57 templates/admin/tables.php:133
+msgid "All Tables"
+msgstr "Alle tafels"
+
+#: templates/admin/tables.php:62
+msgid "New Table"
+msgstr "Nieuwe tafel"
+
+#: templates/admin/tables.php:62
+msgid "Edit Table"
+msgstr "Wijzig tafel"
+
+#: templates/admin/tables.php:83 templates/admin/tables.php:139
+msgid "Position"
+msgstr "Positie"
+
+#: templates/admin/tables.php:89 templates/admin/report/report_form.php:38
+msgid "Type"
+msgstr "Type"
+
+#: templates/admin/tables.php:92
+msgid "Default"
+msgstr "Standaard"
+
+#: templates/admin/tables.php:93
+msgid "Hire"
+msgstr "Huren"
+
+#: templates/admin/tables.php:106
+msgid "Per Hours"
+msgstr "Per uur"
+
+#: templates/admin/tables.php:107
+msgid "Per Minute"
+msgstr "Per minuut"
+
+#: templates/admin/tables.php:108
+msgid "Per Day"
+msgstr "Per dag"
+
+#: templates/admin/tables.php:181
+msgid "No table found"
+msgstr "Geen tafel gevonden"
+
+#: templates/admin/products.php:8
+msgid "POS Products"
+msgstr "POS producten"
+
+#: templates/admin/receipt_template_composer.php:5
+msgid "Composer Receipt"
+msgstr "Ontwerper bon"
+
+#: templates/admin/receipt_template_composer.php:21
+msgid "Padding (Inch)"
+msgstr "Opvulling (inch)"
+
+#: templates/admin/receipt_template_composer.php:24
+msgid "Top"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:28
+msgid "Right"
+msgstr "Rechts"
+
+#: templates/admin/receipt_template_composer.php:32
+msgid "Bottom"
+msgstr "Bodem"
+
+#: templates/admin/receipt_template_composer.php:36
+msgid "Left"
+msgstr "Links"
+
+#: templates/admin/receipt_template_composer.php:40
+msgid "Template"
+msgstr "Sjabloon"
+
+#: templates/admin/receipt_template_composer.php:43
+#: templates/admin/receipt_template_composer.php:51
+msgid "Load Sample"
+msgstr "Laad voorbeeld"
+
+#: templates/admin/receipt_template_composer.php:48
+msgid "CSS"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:84
+msgid "Receipt templates"
+msgstr "Bon sjablonen"
+
+#: templates/admin/receipt_templates.php:91
+msgid "New template"
+msgstr "Nieuw sjabloon"
+
+#: templates/admin/receipt_templates.php:91
+msgid "Edit template"
+msgstr "Wijzig sjabloon"
+
+#: templates/admin/receipt_templates.php:124
+msgid "Receipt Name"
+msgstr "Bonnaam"
+
+#: templates/admin/receipt_templates.php:134
+msgid "Composer"
+msgstr "Ontwerper"
+
+#: templates/admin/receipt_templates.php:140
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+#: templates/admin/receipt_templates.php:142
+msgid "Print Sample"
+msgstr "Print voorbeeld"
+
+#: templates/admin/receipt_templates.php:159
+msgid "No template found"
+msgstr "Geen sjabloon gevonden"
+
+#: templates/admin/orders.php:9
+msgid "POS Orders"
+msgstr "POS bestellingen"
+
+#: templates/admin/woocommerce/order_exchanges.php:5
+msgid "by"
+msgstr "door"
+
+#: templates/admin/report/report_sales_chart.php:22
+msgid "Total Commission"
+msgstr "Totaal commissie"
+
+#: templates/admin/report/report_form.php:15
+msgid "POS - Stripe"
+msgstr ""
+
+#: templates/admin/report/report_form.php:41
+msgid "Sales Report"
+msgstr "Verkooprapport"
+
+#: templates/admin/report/report_form.php:43
+msgid "Sales By Seller Report"
+msgstr "Verkoop door verkoper rapport"
+
+#: templates/admin/report/report_form.php:44
+msgid "Sales By Shop Agent Report ( Cashier )"
+msgstr "Verkoop door kassière rapport"
+
+#: templates/admin/report/report_form.php:46
+msgid "Transactions Report"
+msgstr "Transacties rapport"
+
+#: templates/admin/report/report_form.php:47
+msgid "Sales By Payment Method"
+msgstr "Verkopen per betaalmethode"
+
+#: templates/admin/report/report_form.php:48
+msgid "Sales By Product"
+msgstr "Verkopen per product"
+
+#: templates/admin/report/report_form.php:49
+msgid "Z Report"
+msgstr "Z-rapport"
+
+#: templates/admin/report/report_form.php:58
+msgid "All Outlets"
+msgstr "Alle verkooppunten"
+
+#: templates/admin/report/report_form.php:76
+msgid "Seller"
+msgstr "Verkoper"
+
+#: templates/admin/report/report_form.php:79
+msgid "All Staff"
+msgstr "Alle personeel"
+
+#: templates/admin/report/report_form.php:87
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: templates/admin/report/report_form.php:90
+msgid "Choose method"
+msgstr "Kies methode"
+
+#: templates/admin/report/report_form.php:99
+msgid "Duration"
+msgstr "Duur"
+
+#: templates/admin/report/report_form.php:103
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: templates/admin/report/report_form.php:106
+msgid "Last 30 Days"
+msgstr "Laatst 30 dagen"
+
+#: templates/admin/report/report_form.php:107
+msgid "This month"
+msgstr "Deze maand"
+
+#: templates/admin/report/report_form.php:108
+msgid "custom"
+msgstr "op maat"
+
+#: templates/admin/report/report_form.php:118
+msgid "From"
+msgstr "van"
+
+#: templates/admin/report/report_form.php:125
+msgid "To"
+msgstr "tot"
+
+#: templates/admin/report/report_form.php:136
+msgid "Export CSV"
+msgstr ""
+
+#: templates/admin/report/report_form.php:137
+msgid "Get Report"
+msgstr "Maak rapport"
+
+#: templates/admin/report/print_z_report.php:107
+msgid "Open Time"
+msgstr "Openingstijd"
+
+#: templates/admin/report/print_z_report.php:111
+msgid "Close Time"
+msgstr "Sluitingstijd"
+
+#: templates/admin/report/report_transactions_table.php:12
+msgid "Create At"
+msgstr "Aanmaken op"
+
+#: templates/admin/report/report_sales_table.php:10
+msgid "Commission Total"
+msgstr "Totaal commissie"
+
+#: templates/admin/report/report_sales_table.php:12
+msgid "Created At "
+msgstr "Aangemaakt op"
+
+#: templates/admin/report/report_sales_table.php:13
+msgid "View "
+msgstr "Weergave"
+
+#: templates/admin/warehouse/inventory.php:11
+msgid " of "
+msgstr " van "
+
+#: templates/admin/warehouse/adjust_stock.php:19
+msgid "Adjust Stock"
+msgstr "Stel voorraad in"
+
+#: templates/admin/warehouse/adjust_stock.php:32
+msgid "Search / Import Product"
+msgstr "Zoek / importeer product"
+
+#: templates/admin/warehouse/adjust_stock.php:39
+msgid "Search"
+msgstr "Zoek"
+
+#: templates/admin/warehouse/adjust_stock.php:44
+msgid "Click here to get to import with csv file"
+msgstr "Klik hier om import met csv bestand te krijgen"
+
+#: templates/admin/warehouse/adjust_stock.php:45
+msgid "Download sample csv file"
+msgstr "Download voorbeeld csv bestand"
+
+#: templates/admin/warehouse/adjust_stock.php:64
+msgid "No product selected"
+msgstr "Geen product geselecteerd"
+
+#: templates/admin/warehouse/new.php:54
+msgid "Back"
+msgstr "Terug"
+
+#. Name of the plugin
+msgid "Woocommerce OpenPos"
+msgstr ""
+
+#. Description of the plugin
+msgid "Quick POS system for woocommerce."
+msgstr "Snel POS systeem voor WooCommerce."
+
+#. URI of the plugin
+msgid "http://openswatch.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "anhvnit@gmail.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://openswatch.com/"
+msgstr ""

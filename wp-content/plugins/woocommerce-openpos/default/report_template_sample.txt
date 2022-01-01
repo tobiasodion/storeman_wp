@@ -1,0 +1,127 @@
+<div id="top">
+       <div class="info" style="text-align:center;">
+              <h2 style="text-transform: uppercase;font-size: 14px;">Register Summary</h2>
+              <p style="font-size:12px;margin:2px 0;">RegisterID <b><%-register_id %></b></p>
+              <p style="font-size:12px;margin:2px 0;">Cashier <b><%- cashier_user_name %></b></p>
+              <p style="font-size:12px;margin:2px 0;">Store address here </p>
+              <p style="font-size:12px;margin:2px 0;"> <%= new Date(login_time).getDate() %>/<%= new Date(login_time).getMonth() + 1 %>/<%= new Date(login_time).getFullYear() %> at <%= new Date(login_time).getHours() %>:<%= new Date(login_time).getMinutes() %> - <%= new Date(logout_time).getDate() %>/<%= new Date(logout_time).getMonth() + 1 %>/<%= new Date(logout_time).getFullYear() %> at <%= new Date(logout_time).getHours() %>:<%= new Date(logout_time).getMinutes() %> </p>
+              <p>Print time: 
+                <% var date = new Date(); const cmonthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+]; %>
+                <%-date.getDate() %>/<%- cmonthNames[date.getMonth()] %>/<%-date.getFullYear() %>
+                at
+                <%-date.getHours() %>:<%-date.getMinutes() %>
+                </p>
+       </div>
+       
+</div>
+
+<div style="padding: 5px;">
+  <div style="border: solid 2px #000;border-radius: 10px;font-weight:bold;text-align:center;text-transform: uppercase;">
+  <p>Total Sales</p>
+ <p><%- sale_total_currency_formatted %></p>
+  </div>
+ 
+</div>
+<p style="text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;">Summary</p>
+    
+     <table border="0" style="width:100%;">
+     
+    <% sale_payments.forEach(function(payment){ %>
+        <tr><th colspan="2" style="text-align:center;border-top:solid 1px #000;text-transform: uppercase;font-size: 12px;"> <%- payment.payment_name %><th></tr>
+        <tr><td style="text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;">Sales</td><td><b><%- payment.total_currency_formatted %></b> </td> </tr>
+<tr><td style="text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;">REFUND</td><td><b><%- payment.refund_total_currency_formatted %></b> </td> </tr>
+<tr><td style="text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;">NET</td><td><b><%- payment.base_total_currency_formatted %></b> </td> </tr>
+ <% }); %>
+    </table>
+
+<p style="text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;margin-top:10px;border-top:solid 1px #000;padding:5px;">TAX</p>
+<table border="0" style="width:100%;">
+<% taxes.forEach(function(tax){ %>
+    <tr>
+    	<th style="
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;
+"><%- tax.label %></th>
+        <td style="font-weight: bold;"><%- tax.total_currency_formatted %></td>
+    </tr>
+<% }); %>
+</table>
+
+<p style="text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;margin-top:10px;border-top:solid 1px #000;padding:5px;">Activity</p>
+   
+<table border="0" style="width:100%;border-top:solid 1px #000;">
+    <tr>
+    	<th style="
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;
+">Open Shift</th>
+        <td style="font-weight: bold;"><%- open_balance_currency_formatted %></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-size:12px;">  <%= new Date(login_time).getDate() %>/<%= new Date(login_time).getMonth() %>/<%= new Date(login_time).getFullYear() %> at <%= new Date(login_time).getHours() %>:<%= new Date(login_time).getMinutes() %> </td>
+    </tr>
+</table>
+<table border="0" style="width:100%;border-top:solid 1px #000;">
+    <tr>
+    	<th style="
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;
+">Close Shift</th>
+        <td style="font-weight: bold;"><%- close_balance_currency_formatted %></td>
+    </tr>
+    <tr>
+       <td colspan="2" style="font-size:12px;"><%= new Date(logout_time).getDate() %>/<%= new Date(logout_time).getMonth() %>/<%= new Date(logout_time).getFullYear() %> at <%= new Date(logout_time).getHours() %>:<%= new Date(logout_time).getMinutes() %> </td>
+    </tr>
+</table>
+
+<table border="0" style="width:100%;border-top:solid 1px #000;">
+    <tr>
+    	<th style="
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    text-align:right;
+    padding: 2px;
+    width: 50%;
+">Adjustment</th>
+        <td style="font-weight: bold;padding-bottom: 10px;"><%- custom_transaction_total_currency_formatted %></td>
+    </tr>
+</table>

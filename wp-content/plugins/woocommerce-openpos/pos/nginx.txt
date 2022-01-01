@@ -1,0 +1,20 @@
+server {
+  
+    location /your.pos.panel.folder {
+        try_files $uri $uri/ /index.php;
+    }
+}
+
+#sample 
+
+location /wp-content/plugins/woocommerce-openpos/pos/ {
+        try_files $uri $uri/ /wp-content/plugins/woocommerce-openpos/pos/index.php?$args;
+        
+        #resolve the 206 partial content error message
+        add_header Access-Control-Expose-Headers Accept-Ranges;
+        add_header Access-Control-Expose-Headers Content-Encoding;
+        add_header Access-Control-Expose-Headers Content-Length;
+        add_header Access-Control-Expose-Headers Content-Range;
+        add_header accept_ranges bytes;
+        client_max_body_size 512M;
+}

@@ -1,0 +1,186 @@
+.item-note{
+    color:red;
+    font-style: italic;
+    font-size: 12px;
+}
+/* Green - Yellow - Red */
+.gradient_0    {background: #57bb8a;}
+.gradient_5    {background: #63b682;}
+.gradient_10   {background: #73b87e;}
+.gradient_15   {background: #84bb7b;}
+.gradient_20   {background: #94bd77;}
+.gradient_25   {background: #a4c073;}
+.gradient_30   {background: #b0be6e;}
+.gradient_35   {background: #c4c56d;}
+.gradient_40   {background: #d4c86a;}
+.gradient_45   {background: #e2c965;}
+.gradient_50   {background: #f5ce62;}
+.gradient_55   {background: #f3c563;}
+.gradient_60   {background: #e9b861;}
+.gradient_65   {background: #e6ad61;}
+.gradient_70   {background: #ecac67;}
+.gradient_75   {background: #e9a268;}
+.gradient_80   {background: #e79a69;}
+.gradient_85   {background: #e5926b;}
+.gradient_90   {background: #e2886c;}
+.gradient_95   {background: #e0816d;}
+.gradient_100  {background: #dd776e;}
+
+.option-item-label{
+	padding-left: 5px;
+}
+#kitchen-table-body tr:nth-child(odd){
+    background: #ccc;
+}
+.item-priority{
+    font-weight: bold;
+}
+
+.item-name{
+    position: relative;
+}
+span.dining{
+   display: none;
+}
+span.dining.takeaway{
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border:none;
+    padding: 2px 10px;
+    font-size: 12px;
+    color: #fff;
+    background: #005724;
+    border-radius: 10px;
+}
+.grid-view:hover{
+  
+    text-decoration: none;
+}
+.grid-view{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.grid-view.selected{
+    color:red;
+    text-decoration: none;
+}
+.kitchen-order{
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+    max-width: 25%;
+}
+.order-container{
+    border: solid 1px #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.order-header{
+    text-align: center;
+    background: #ccc;
+    padding: 5px;
+    position: relative;
+}
+.order-type-takeaway .order-header{
+    background: #ffeb3b;
+}
+.order-header h3{
+    margin: 0;
+    padding: 0;
+}
+.order-items{
+    padding: 5px;
+}
+.order-items li{
+    padding: 10px 50px 10px 0;
+    position: relative;
+    list-style: none;
+}
+.order-items li:hover{
+    background: #ccc;
+}
+.order-action{
+    background: #ccc;
+    padding: 5px;
+    font-weight: bold;
+}
+.order-action-btn{
+    
+    float: right;
+    margin-right: 5px;
+}
+.item-action a:hover,
+.is_cook_ready:hover,
+.order-action-btn a:hover{
+    color:red;
+}
+.order-action .is_cook_ready{
+    float: right;
+}
+.order-items ul{
+    margin: 0;
+    padding: 5px;
+}
+.order-items ul li{
+    border-bottom: dotted 1px #333;
+}
+.order-items ul li:last-child{
+    border-bottom: none;
+}
+.order-items .done,
+.order-items .done_all{
+    text-decoration: line-through;
+}
+
+.order-items .ready{
+    color: green;
+}
+.dining-takeaway{
+    background:#e91e63;
+    color: #fff;
+    position: absolute;
+    padding: 0 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    top: 0px;
+}
+.order-items .item-qty{
+    font-weight: bold;
+}
+.order-customer-name{
+    font-size: 10px;
+    background: green;
+    position: absolute;
+    right:3px;
+    top:1px;
+    color: #fff;
+    padding: 2px;
+}
+#bill-content-items .order-item-name,
+#bill-content-items .order-item-qty,
+#bill-content-items .item-table-name,
+#bill-content-items .item-action{
+    vertical-align: middle;
+}
+.order-item-time{
+    font-size: 10px;
+    font-style: italic;
+}
+.item-qty{
+    font-weight: bold;
+}
+.item-qty.warn{
+    color:red;
+}
+
+.body-orders #bill-content{
+    background: #424242;
+}
+.body-orders .order-container{
+    background: #fff;
+}
+.item-seller{
+    font-size: 10px;
+}

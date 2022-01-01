@@ -1,0 +1,30 @@
+<% var total_qty = 0; %>
+<table class="table table-bordered border-primary align-middle table-dishes">
+  <thead>
+        <tr><th  colspan="2" class="text-center"><h2><%= table.name %></h2></th></tr>
+        <tr>
+            <th><%= lang.label_item %></th>
+            <th><%= lang.label_qty %></th>
+        </tr>
+  </thead>
+  <tbody>
+  <% if (dishes.length > 0) { %>
+            <% dishes.forEach(function(item){ %>
+                <% total_qty += item.qty; %>
+                <tr>
+                    <td>
+                        <p><%= item.name %></p>
+                    </td>
+                    <td><p><%- item.qty %></p></td>
+                   
+                </tr>
+            <% }); %>
+<% } %>
+  <% if (dishes.length == 0) { %>
+     <tr><td  colspan="2"> <%= lang.msg_table_empty %></td></tr>
+  <% } %>
+  </tbody>
+</table>
+<% if(total_qty > 0 ){ %>
+<p><em><%= lang.msg_table_confirm %></em></p>
+<% } %>

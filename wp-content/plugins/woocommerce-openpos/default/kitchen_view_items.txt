@@ -1,0 +1,36 @@
+<tr>
+<td class="text-center item-priority" style="background: linear-gradient(90deg, rgba(136,251,63,1) 0% , rgba(252,70,70,1)  <%- priority %>%);"><%= index %></td>
+<td class="item-name order-item-name">
+        <span class="dining <%- dining %>"><%- dining %></span><%= item %><p class="item-note"><%- note %></p>
+</td>
+<td class="text-center order-item-qty">
+ <% if (qty > 1 ) { %> 
+    <span class="item-qty warn"><%= qty %></span>
+  <% }else{ %>
+     <span class="item-qty"><%= qty %></span>
+  <% } %>
+
+</td><td>
+    <p class="order-item-time-ago"><%= time_ago %></p>
+    <p class="order-item-time"><%= order_time %></p>
+</td>
+<td class="item-table-name"><%= table %></td>
+<td class="text-center item-action">
+
+    <% if (allow_action.length == 0 ) { %> 
+        <% if (done != "ready" && done != "done" ) { %> 
+            <a data-id="<%- id %>" href="javascript:void(0);" class="is_cook_ready"> <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> </a> 
+        <% } else { %> 
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 
+        <% } %>
+    <% }else{ %>
+        <% allow_action.forEach(function(action){ %>
+            <% if (action == "delete" ) { %> 
+                <a data-id="<%- id %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a> 
+            <% } else { %> 
+                <a data-id="<%- id %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"><%= action %> </a> 
+            <% } %>
+        <% }) %>
+    <% } %>
+</td>
+</tr>
